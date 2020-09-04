@@ -7,7 +7,8 @@ module.exports = {
             password,
             name,
             description,
-            site
+            site,
+            avatar
         } = req.body
 
         try {
@@ -21,7 +22,8 @@ module.exports = {
                 password,
                 name,
                 description,
-                site
+                site,
+                avatar
             })
 
             return res.status(200).send({

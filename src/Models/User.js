@@ -14,8 +14,14 @@ const Schema = new mongoose.Schema({
         required: true
     },
     description: {
-        type: String
+        type: String,
+        required: true
     },
+    avatar: {
+        type: String,
+        required: true
+    }
+    ,
     site: {
         type: String
     }
